@@ -1,0 +1,27 @@
+@import "variables";
+
+.gridPadre {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 560px;
+	background-image: url("https://www.wallpapertip.com/wmimgs/67-673278_cs-go-wallpaper-ak-47.jpg");
+}
+.hijo2 {
+	display: grid;
+	grid-template-columns: 2fr;
+	grid-template-rows: 900px;
+}
+.hijo {
+	height: 400px;
+	background-color: $background-color_3;
+	margin: 30px;
+	button {
+		position: absolute;
+		padding: 15px;
+		background-color: $background-color_6;
+		border-radius: 10px;
+		font-weight: 600;
+		font-family: $font-family_3;
+		width: 61.6%;
+	}
+}

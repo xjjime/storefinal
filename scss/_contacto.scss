@@ -1,0 +1,43 @@
+@import "variables";
+
+.queries {
+	padding-top: 10%;
+	text-align: center;
+	height: 100px;
+	color: $color_4;
+}
+form {
+	font-family: $font-family_4;
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 20px;
+	color: $color_2;
+	text-align: center;
+	font-family: $font-family_4;
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 20px;
+	color: $color_2;
+	text-align: center;
+}
+.formulario {
+	input {
+		margin: 10px;
+		width: 30%;
+	}
+	textarea {
+		margin: 10px;
+		width: 30%;
+	}
+}
+.formcolor {
+	color: $color_4;
+}
+.botonform {
+	padding: 10px;
+	margin: 20px;
+	background-color: $background-color_7;
+}
+.spaceform {
+	margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+@import "variables";
+
+footer {
+	background-color: $background-color_1;
+}
+.icon {
+	width: 20px;
+	height: 20px;
+}
+.social {
+	font-family: $font-family_1;
+	font-weight: bolder;
+	text-align: center;
+	font-style: normal;
+	padding: 10px;
+	color: $color_1; }
